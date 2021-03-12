@@ -41,7 +41,7 @@ def checkout(cart, coupons)
   couponed_cart = apply_coupons(consolidated_cart)
   final_cart = apply_clearance(couponed_cart)
   
-  clearanced_cart.each do |cart_items|
+  final_cart.each do |cart_items|
     binding.pry
   end
 end
