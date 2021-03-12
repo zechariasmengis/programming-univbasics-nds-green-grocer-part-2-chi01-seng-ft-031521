@@ -47,4 +47,5 @@ def checkout(cart, coupons)
     item_total_price = cart_item[:price] * cart_item[:count]
     total += item_total_price
   end
+  if total 
 end
