@@ -1,4 +1,5 @@
 require_relative './part_1_solution.rb'
+require 'pry'
 
 def apply_coupons(cart, coupons)
   counter = 0
@@ -28,7 +29,8 @@ end
 
 def apply_clearance(cart)
   cart.each do |cart_item|
-    
+    binding.pry
+  end
 end
 
 def checkout(cart, coupons)
